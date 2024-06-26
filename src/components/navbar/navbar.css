@@ -1,0 +1,21 @@
+.Navbar{ 
+    grid-area: navbar;
+}
+.Navbar ul{
+  /* 
+  text-align: center;
+  border-radius: 12px;
+  */
+  margin-left: 76%;
+  width: 20%;
+  background-color: #282828; 
+  }
+  
+  .Navbar li {
+    display: inline;
+    }
+    .Navbar a{
+      padding: 6px;
+      color:whitesmoke;
+      text-decoration: none;
+      }
