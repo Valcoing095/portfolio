@@ -1,7 +1,20 @@
 .Main{ 
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 40px;
     grid-area: main;
-    background: rgb(102, 14, 14);
-    text-align: center;
-    box-shadow:  0 0  1em #746669;
-    border-radius: 15px;
+    background-color: rgba(168, 165, 165, 0.329);
+    border:solid 2px rgb(105, 104, 104);
+    border-radius: 30px;
+
+}
+
+.Main-grid{
+    margin-top:1%;
+    display: grid;
+    grid-template-areas:
+    'aboutMe navbar navbar navbar navbar navbar',
+    /* 'aboutMe aboutMe aboutMe aboutMe aboutMe aboutMe' */
+    ;
+  gap: 10px;
 }

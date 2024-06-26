@@ -1,0 +1,6 @@
+.about-me{ 
+    grid-area: aboutMe;
+    color: blueviolet;
+    /* margin-left: -35%; */
+    font-size: 25px;
+}
