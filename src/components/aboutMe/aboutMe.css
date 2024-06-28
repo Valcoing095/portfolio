@@ -1,6 +1,12 @@
-.about-me{ 
-    grid-area: aboutMe;
-    color: rgba(255, 218, 8, 0.562);
-    margin-left: -37%;
-    font-size: 25px;
+.about-me{
+    grid-area: aboutme;
+    height:0;
+    margin-bottom: 90%;
+}
+
+.card-about-me{
+    grid-area: cardaboutme;
+    color: white;
+
+    padding: 40px;
 }

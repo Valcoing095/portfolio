@@ -5,10 +5,11 @@ import AboutMe from '../aboutMe/aboutMe';
 function Main() {
   return (
     <div className="Main">
+      <Navbar/>
+      <AboutMe/>
+      {/* 
       <div className="Main-grid">
-        <Navbar/>
-        <AboutMe/>
-      </div>
+      </div> */}
     </div>
   );
 }

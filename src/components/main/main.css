@@ -3,18 +3,13 @@
     margin-left: 50px;
     margin-right: 40px;
     grid-area: main;
-    background-color: rgba(168, 165, 165, 0.329);
-    border:solid 2px rgb(105, 104, 104);
     border-radius: 30px;
-
-}
-
-.Main-grid{
-    margin-top:1%;
     display: grid;
     grid-template-areas:
-    'aboutMe navbar navbar navbar navbar navbar',
-    /* 'aboutMe aboutMe aboutMe aboutMe aboutMe aboutMe' */
-    ;
-  gap: 10px;
+    'aboutmetitle navbar'
+    'aboutme aboutme'  ; 
+    border:solid 2px rgb(105, 104, 104);
+    background-color: rgba(168, 165, 165, 0.329);
+
 }
+
